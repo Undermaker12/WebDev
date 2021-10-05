@@ -18,9 +18,18 @@
 .button2 {
 	border-radius: 30%;
 }
+.button3 {
+	border-radius: 50%;
+}
 
 .red {
 	background-color: #ff0000;
+}
+.blue {
+	background-color: #0048ff;
+}
+.yellow {
+	background-color: #ffe100;
 }
 
 td{
