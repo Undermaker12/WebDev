@@ -26,3 +26,6 @@
 .background-violet {
     background-color: violet;
 }
+a.highlight:hover {
+    color: #ff0000;
+  }
