@@ -1,3 +1,35 @@
+
+body{
+  background-color: rgb(227, 227, 227);
+}
+.bg-home{
+  background-color: rgba(255, 45, 45, 0.81) !important;
+}
+.bg-games{
+  background-color: rgba(0, 187, 255, 0.81) !important;
+}
+.bg-music{
+  background-color: rgba(206, 141, 0, 0.81) !important;
+}
+.bg-tutorial{
+  background-color: rgba(0, 191, 16, 0.81) !important;
+}
+.bg-aboutme{
+  background-color: rgba(255, 0, 183, 0.81) !important;
+}
+.invisable {
+	background-color: #4caf4f00;
+	border: none;
+	color: rgba(255, 255, 255, 0);
+	padding: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
 .body-wideMargin {
   margin: 50px;
   font-size: 100%;
@@ -28,6 +60,54 @@ h1 {
   font-size: 2em;
   text-transform: uppercase;
   font-weight: 400;
-  border-bottom: 1px solid black;
+  border-bottom: 0px solid rgb(0, 0, 0);
   margin-bottom: 1em;
+}
+.containerfooter {
+  background-color: rgba(193, 193, 193, 0.81);
+  width: 100%;
+   margin-right: 0px;
+  margin-left: 0px;
+margin-bottom: 0px;
+margin-top: 0px;}
+#gallery {
+  font-family: "Orbitron", sans-serif;
+  line-height: 1.5em;
+  text-align: center;
+}
+.container-card {
+  display: inline-block;
+  margin: 3%;
+  perspective: 1000px;
+}
+.flipper {
+  position: relative;    
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+.front, .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 320px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+  backface-visibility: hidden;
+}
+front{
+  z-index:2;
+}
+
+.back{
+  transform:rotateY(180deg);
+}
+img {
+  width: 100%;
+}
+.container-card, .front, .back {
+  width: 250px;
+  height: 320px;
+}
+.container-card:hover .flipper {
+  transform: rotateY(180deg);
 }

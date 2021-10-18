@@ -6,13 +6,13 @@
 -->
 
 <head>
-    <title>Home</title>
+    <title>Games And Fun</title>
 
     <!-- Homepage meta data -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Home Page">
+    <meta name="description" content="About me page">
 
     <!-- Bootstrap core JS -->
     <!-- These are needed to get the responsive menu to work -->
@@ -23,7 +23,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="CSS/style.css">
     <!-- Custom styles for this template -->
     <style type="text/css">
         .menu {
@@ -38,14 +38,30 @@
             font-size: 12px;
             text-align: center;
         }
+        .demo-content {
+            padding: 15px;
+            font-size: 18px;
+            background: #dbdfe5;
+            margin-bottom: 15px;
+            text-align: center
+        }
+
+        .demo-content.bg-alt {
+            background: #abb1b8;
+
+        }
+
+        .bs-example {
+            margin: 20px;
+        }
     </style>
 </head>
 
 <body>
     <!---------------------------------- Begin the nav-bar ----------------------------------->
     <div class="menu">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a href="http://shakonet.isd720.com" class="navbar-brand">WebDev</a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-aboutme">
+            <a href="home.html" class="navbar-brand">Games And Fun</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,18 +69,11 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">About Me</a>
-                    <a href="#" class="nav-item nav-link" tabindex="-1">Music</a>
-                    <a href="#" class="nav-item nav-link" tabindex="-1">Lists</a>
-                    <a href="games.html" class="nav-item nav-link" tabindex="-1">Games</a>
-                    <a href="bootstrap.html" class="nav-item nav-link" tabindex="-1">Bootstrap</a>
-                    <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-item nav-link disabled"
-                        tabindex="-1">Contact</a>
+                    <a href="home.html" class="nav-item nav-link">Home</a>
+                    <a href="games.html" class="nav-item nav-link">Games</a>
+                    <a href="tutorial.html" class="nav-item nav-link" tabindex="-1">Tutorial</a>
+                    <a href="aboutMe.html" class="nav-item nav-link active" tabindex="-1">About Me</a>
                     <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your Menu ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
-                </div>
-                <div class="navbar-nav ml-auto">
-                    <a href="#" class="nav-item nav-link">Login</a>
                 </div>
             </div>
         </nav>
@@ -73,21 +82,42 @@
 
     <div class="wideMargin" id="content">
 
-        <h1 class="text-left my-3">Home</h1><!-- Edit this line for the title of your page -->
+        <h1 class="text-left my-3">About me</h1><!-- Edit this line for the title of your page -->
 
         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
         <p>
-            This is my Home page!
+            Stuff about me
         </p>
         <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑↑↑↑-->
     </div>
 
     <!---------------------------------- Begin the footer ------------------------------------->
-    <div class="wideMargin" id="footer">
+    <div class="containerfooter">
         <p>
-            Webpage made by <a href="index.html" target="_blank">[your name]</a>
         </p>
+    <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-0">
+            <img style="width: 50px; height: 50px;" src="../user09/images/Websiteimage.png">
+        </div>
+        <div class="col-sm-10">
+            <div class="footerV2">
+            <p>
+                Website creator <a href="aboutMe.html" target="_blank">Undermaker12</a>
+            </p>
+            </div>
+        </div>
+    </div><div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-10">
+            <p>
+            </p>
+        </div>
     </div>
+    <p>
+    </p>
     <!---------------------------------- End the footer --------------------------------------->
 </body>
 
