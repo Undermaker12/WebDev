@@ -37,7 +37,7 @@ body {
     color: #FF0000;
 }
 
-.report-container {
+.report-containerWeather {
     border: #FF0000 1px solid;
     background-color: #953553;
     padding: 20px 40px 40px 40px;

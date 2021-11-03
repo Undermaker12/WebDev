@@ -111,3 +111,9 @@ img {
 .container-card:hover .flipper {
   transform: rotateY(180deg);
 }
+*{
+  font-family: "Rimouski";
+}
+
+
+

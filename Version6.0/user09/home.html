@@ -9,7 +9,7 @@
     <title>Games And Fun</title>
 
     <!-- Homepage meta data -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Home Page">
@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="/Version6.0/user09/weather/font/Rimouski.css">
+    <link rel="stylesheet" href="/Version6.0/user09/weather/style.css">
+    <link rel="stylesheet" href="/Version6.0/user09/weather/icons/">
     <!-- Custom styles for this template -->
     <style type="text/css">
         .menu {
@@ -65,6 +68,8 @@
             margin: 20px;
         }
     </style>
+    <meta charset="UTF-8">
+    
 </head>
 
 <body>
@@ -83,6 +88,9 @@
                     <a href="games.html" class="nav-item nav-link">Games</a>
                     <a href="tutorial.html" class="nav-item nav-link" tabindex="-1">Tutorial</a>
                     <a href="aboutMe.html" class="nav-item nav-link" tabindex="-1">About Me</a>
+                    <div class="spinner-border text-light" role="status">
+                        <span class="sr-only">Animation</span>
+                      </div>
                     <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your Menu ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
                 </div>
             </div>
@@ -123,6 +131,36 @@
             </div>
         </div>
     </div>
+
+    <div id="middle-Big">
+        <p>
+            Weather
+        </p>
+    </div>
+
+    <div class="containerWeather">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="/Version6.0/user09/weather/icons/unknown.png" alt="">
+            </div>
+            <div class="temperature-value">
+                <p>- °<span>F</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/Version6.0/user09/weather/app.js"></script>
+   
 
     <!---------------------------------- Begin the footer ------------------------------------->
     <footer>
